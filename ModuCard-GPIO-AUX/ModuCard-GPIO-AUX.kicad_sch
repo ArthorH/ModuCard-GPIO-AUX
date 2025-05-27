@@ -1,0 +1,418 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8ef3faa9-26ac-4d67-9a0f-d4499667925b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 139.7 44.45)
+		(size 36.83 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2da9368d-57bc-4547-94c7-3616951f71e4")
+		(property "Sheetname" "PowerIN"
+			(at 139.7 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerIN.kicad_sch"
+			(at 139.7 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModuCard-GPIO-AUX"
+				(path "/8ef3faa9-26ac-4d67-9a0f-d4499667925b"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 63.5)
+		(size 36.83 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d6a26ce-2624-4f1b-9c72-c26e7e9fc788")
+		(property "Sheetname" "backplane"
+			(at 52.07 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "backplane.kicad_sch"
+			(at 52.07 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIOC[0..15]" input
+			(at 88.9 68.58 0)
+			(uuid "d69b26b8-f55c-4aef-bc15-1aeb9229b9f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BACKPLANE{USB}" output
+			(at 88.9 85.09 0)
+			(uuid "a47607c3-ba99-449a-aeb9-6216607fb139")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN2{CAN}" bidirectional
+			(at 88.9 100.33 0)
+			(uuid "8c2ea9c7-653f-47d5-a05f-4638940da7fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIOR[0..15]" input
+			(at 88.9 71.12 0)
+			(uuid "d5b8e320-f241-49b5-b3dc-9c82fae758ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN1{CAN}" bidirectional
+			(at 88.9 102.87 0)
+			(uuid "0dae52a4-ac65-4963-80c9-208c0b34dc64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIOL[0..15]" input
+			(at 88.9 73.66 0)
+			(uuid "f337e8c8-2da0-47fa-a967-9cb2f32639ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ModuCard-GPIO-AUX"
+				(path "/8ef3faa9-26ac-4d67-9a0f-d4499667925b"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 105.41)
+		(size 35.56 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ae3eed6-4fe2-473c-9b82-fbbaf2f3caa4")
+		(property "Sheetname" "Conn4"
+			(at 139.7 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Conn1.kicad_sch"
+			(at 139.7 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO" input
+			(at 139.7 109.22 180)
+			(uuid "33449b3f-d0ab-42cb-9bec-359047188869")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ModuCard-GPIO-AUX"
+				(path "/8ef3faa9-26ac-4d67-9a0f-d4499667925b"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 77.47)
+		(size 35.56 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8790317c-2f94-4897-9222-89a0fa74b781")
+		(property "Sheetname" "Conn2"
+			(at 139.7 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Conn1.kicad_sch"
+			(at 139.7 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO" input
+			(at 139.7 81.28 180)
+			(uuid "b14eb094-34f7-4014-98cb-d14e30298b5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ModuCard-GPIO-AUX"
+				(path "/8ef3faa9-26ac-4d67-9a0f-d4499667925b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 119.38)
+		(size 35.56 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9aedf911-26ec-4067-95ab-1c11f8fe26e0")
+		(property "Sheetname" "Conn5"
+			(at 139.7 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Conn1.kicad_sch"
+			(at 139.7 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO" input
+			(at 139.7 123.19 180)
+			(uuid "5e516417-f2f1-44d8-ad09-bcba83eb8352")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ModuCard-GPIO-AUX"
+				(path "/8ef3faa9-26ac-4d67-9a0f-d4499667925b"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 91.44)
+		(size 35.56 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1333ab6-9aaa-4fbc-bc6b-224a0904cdda")
+		(property "Sheetname" "Conn3"
+			(at 139.7 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Conn1.kicad_sch"
+			(at 139.7 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO" input
+			(at 139.7 95.25 180)
+			(uuid "223f686c-3c14-4e6e-bbed-7938ec6356b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ModuCard-GPIO-AUX"
+				(path "/8ef3faa9-26ac-4d67-9a0f-d4499667925b"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 63.5)
+		(size 35.56 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8ae1582-52f1-4cc3-aee3-2d6c180077b5")
+		(property "Sheetname" "Conn1"
+			(at 139.7 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Conn1.kicad_sch"
+			(at 139.7 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO" input
+			(at 139.7 67.31 180)
+			(uuid "df787ad6-6fe4-47ed-8ab6-e0695bf997a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ModuCard-GPIO-AUX"
+				(path "/8ef3faa9-26ac-4d67-9a0f-d4499667925b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
